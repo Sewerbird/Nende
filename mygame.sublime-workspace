@@ -1,0 +1,733 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"tint",
+				"tintdirection"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"map_",
+				"map_container"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_script"
+			],
+			[
+				"Goo",
+				"GoogleMapBoxProvider"
+			],
+			[
+				"Map",
+				"MapBoxProtocol"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"midP",
+				"midpointDisplacementR"
+			],
+			[
+				"midpointD",
+				"midpointDisplacementR"
+			],
+			[
+				"db_",
+				"db_ref_score"
+			],
+			[
+				"cre",
+				"createTextNode"
+			],
+			[
+				"fill",
+				"fill-opacity"
+			],
+			[
+				"h",
+				"HOPE_LIVES"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"MAX",
+				"MAX_EXPLOSIONS_SEEN"
+			],
+			[
+				"explos",
+				"explosionstate"
+			],
+			[
+				"strok",
+				"stroke-width"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"price",
+				"priceBeliefs"
+			],
+			[
+				"pric",
+				"priceBeliefs"
+			],
+			[
+				"_vali",
+				"_validateIsPlayer"
+			],
+			[
+				"provin",
+				"province_id"
+			],
+			[
+				"calc",
+				"calculateNewEffectiveTaxValue"
+			],
+			[
+				"setA",
+				"setArmyMarchingOrders"
+			],
+			[
+				"Data",
+				"DataActionInfo"
+			],
+			[
+				"craf",
+				"crafter_ppl"
+			],
+			[
+				"instant",
+				"instantiateProvinces"
+			],
+			[
+				"rand",
+				"randomEstimation"
+			],
+			[
+				"quantity",
+				"quantityTraded"
+			],
+			[
+				"quantit",
+				"quantityTraded"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"deter",
+				"determinePriceOf"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 568,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/style.css",
+			"settings":
+			{
+				"buffer_size": 110,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/js/client.js",
+			"settings":
+			{
+				"buffer_size": 1761,
+				"line_ending": "Unix",
+				"name": "function startGame(options){"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/edwardmiller/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/edwardmiller/Library/Application Support/Sublime Text 3/Packages/User/JavaScript.sublime-settings",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/ProjectTemplate/public/js/client.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/ProjectTemplate/app.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/ProjectTemplate/README.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/ProjectTemplate/package.json",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/ProjectTemplate/views/index.ejs",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/ProjectTemplate/routes/index.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/The Nendhe/Small Early Earth Analogue/Possible Nendhe Scenario",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/assets/js/GoogleMapBoxProvider.js",
+		"/Users/edwardmiller/Documents/Baldur's Gate - Enhanced Edition/Baldur.ini",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/functions.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/tp-javo-map-box.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/parts/single-item-tab.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/library/enqueue.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/index.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-blog-header.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/index.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_drafts/test draft",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/templates/parts/single-item-tab.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/assets/js/SingleMapBoxProtocol.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/assets/js/GoogleSingleMapBoxProvider.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/assets/js/BaiduMapBoxProvider.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/templates/parts/part-single-maps.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/templates/parts/single-item-one-page.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/parts/single-item-tab-inner.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/parts/part-single-maps.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/parts/single-item-one-page.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/assets/js/MapBoxProtocol.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/templates/tp-javo-map-tab.php",
+		"/Users/edwardmiller/Desktop/fear.txt",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/tp-javo-map-wide.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Kurt/wordpress-importer 2/parsers.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Kurt/wordpress-importer 2/wordpress-importer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/twentyfifteen/autoimport/autoimporter.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/style.css",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/library/dashboard/functions.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/templates/tp-javo-map-box.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/functions.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/GoogleMapBoxProvider.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory-ed-child/templates/MapBoxProtocol.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/library/admin/post-meta-box.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/library/admin/assets/theme-settings-page.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/library/shortcodes/shortcode-settings.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory/style.css",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/style.css",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory2-ed-child/style.css",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/Coding/_posts/2015-03-20-Dodger.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/FractalMapRender/client.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/Coding/_posts/2014-03-26-Fractal Map Generation.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory 2/templates/parts/single-item-tab-inner.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-config-sample.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-config.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/XStreets/wp-content/themes/javo-directory/templates/parts/single-item-tab.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/CrossStreetsStyleMapofShanghai/wp-content/themes/javo-directory 2/templates/tp-javo-map-box.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/scripts/dodger/client.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/Coding/_posts/2015-03-14-missiledefense.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/scripts/missiledefense/client.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/scripts/mastermind/client.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Backwi.re/backwire/server.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Backwi.re/backwire/hyperstore/hyperyun.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/_posts/2015-03-24-Quick Scoreboard.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/public/js/client.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Dodger/public/js/client.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Mastermind/public/js/client.js",
+		"/Users/edwardmiller/Downloads/themeforest-8390513-javo-directory-wordpress-theme/javo-directory/templates/tp-javo-map-box.php",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/WenXi/Quote.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/_posts/2015-03-23-Thoughts-On-Powered-Paper.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/_posts/2015-03-23-Thoughts-On-Hope.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/_posts/2015-03-22-Quote.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/server/server_funcs.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/app/game_api.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/index.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_layouts/default.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_plugins/youtube.rb",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_site/about.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/about.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/changelog.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/History.markdown",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/LICENSE.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_config.yml",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/themes/twitter/default.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/JB/pages_list",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/tags.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/themes/bootstrap-3/default.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_site/archive.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_site/blog/prcblog/2010/07/17/saturday-july-17-0809/index.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_theme_packages/twitter/_includes/themes/twitter/default.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/themes/bootstrap-3/page.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/views/index.ejs",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/Coding/_posts/2015-03-11-Mastermind.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/README.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/The Nendhe/AN ATTEMPT TO DECIDE FOREVER.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/app.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/package.json",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/Coding/mastermind.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/README.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_layouts/post.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/Coding/missiledefense.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/routes/index.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/views/error.ejs",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/MissileDefense/public/js/missiledefense.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Mastermind/package.json",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Mastermind/routes/index.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/Mastermind/views/index.ejs",
+		"/Users/edwardmiller/Desktop/Barcamp Talk Ideas",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/assets/themes/bootstrap-3/css/style.css",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/JB/setup",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/Rakefile",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/Gemfile",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_layouts/page.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/themes/bootstrap-3/post.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/JB/analytics",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/JB/comments",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/_includes/JB/comments-providers/disqus",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/blog/oldblog/_posts/2011-08-12-stuff-arrived.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/Edmicha Universalis Documentation.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/server/game_funcs.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/jekyll-bootstrap/_includes/themes/bootstrap-3/page.html",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/jekyll-bootstrap/index.md",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/package.json",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/server/dataActionInfo.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/app.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/app/main.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/public/js/game.js",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/views/index.ejs",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/app/jsx/game.jsx",
+		"/Users/edwardmiller/Documents/Ed's Hobbies/Coding/lords/app/jsx/province.jsx"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>,/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/jekyll-bootstrap/blog/Kyahida/_posts,/Users/edwardmiller/Documents/Ed's Hobbies/Website/sewerbird.github.io/jekyll-bootstrap/blog/Nendsame RPG/_posts"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bunny",
+			"pan",
+			"close",
+			"iw_",
+			"infowindow",
+			"closeInfoWOrld",
+			"openInfo",
+			"infoWindo",
+			"setInfoBubble",
+			"close_ib_box",
+			"BMap.Point",
+			"infowindo",
+			"openInfoWindow",
+			"infoWindo",
+			"infobubble",
+			"setMarkers",
+			"marker_on_list",
+			"marker_trigger",
+			"new BMap.size",
+			"setMarkers",
+			"layout",
+			".png",
+			"setDistance",
+			"icon",
+			"this.map.map",
+			"this.map.mapTypes",
+			"swapTo//",
+			"swapTo/",
+			"swapTo",
+			"Baidu",
+			"googlemapstoggle",
+			"Google",
+			"GoogleMaps",
+			"MapsToggle",
+			"img src",
+			"JAVO_",
+			"BaiduMapsToggle",
+			"javo-single-map-area",
+			"c.data.post",
+			"ajaxurl",
+			"infobubble",
+			"str.replace",
+			"javo-single-map-area",
+			"javo-single-item-tab-map-area'",
+			"center",
+			"layout",
+			"InfoBubble",
+			"$.",
+			"$(",
+			"latlng",
+			"init",
+			"javo_msg",
+			"$.",
+			".javo_msg",
+			"$.",
+			"$(",
+			"gmap3",
+			"javo_stm",
+			".latLng",
+			"latLng",
+			"latlng",
+			"$(",
+			"map",
+			"item-location",
+			"javo-single-tab",
+			"single-map-area",
+			"allow_fetch_attachments",
+			"import_options",
+			"handle_upload",
+			"Failed to import",
+			"Media",
+			"media",
+			"map-area",
+			"latlng",
+			"$latlng",
+			"javo_mhome_map_area",
+			".javo_mhome_map_area",
+			"setDistanceBar",
+			"\\n\\n\\n",
+			"single-map",
+			"infoWindo",
+			"infoWindow",
+			"map_clear",
+			"BaiduMapBoxProvider\\.prototype\\.([a-zA-Z_]+) = function\\(([ a-zA-Z_]*)\\)\\n\\{\\n\\tconsole\\.warn\\('DEV-ABLED'\\)\\n\\treturn",
+			"BaiduMapBoxProvider\\.prototype\\.([a-zA-Z_]+) = function\\(([ a-zA-Z_]+)\\)\\n\\{\\n\\tconsole\\.warn\\('DEV-ABLED'\\)\\n\\treturn",
+			"setMarkers",
+			"filter",
+			"setMarkers",
+			"noui",
+			"setDistanceBar",
+			"gmap3",
+			"\\.map",
+			"gmap3",
+			"\\.map",
+			".map",
+			"gmap3",
+			"google",
+			"GoogleMapBoxProvider",
+			"\\$([\\(\\.])",
+			"\\$[\\(\\.]",
+			"$[\\.\\(]+",
+			"$",
+			"gmap3",
+			"obj.provider.items",
+			"obj.",
+			"obj.variable",
+			"obj.el.",
+			"obj.provider",
+			"obj.el",
+			"activate =",
+			"obj\\.el",
+			"\\.el",
+			"obj.el",
+			"\\.el",
+			"\\.el =",
+			"obj.el",
+			"keyword_",
+			"gmap-v3",
+			"window.javo_map_box_func",
+			"\\n\\t, ([a-zA-Z_]+): function\\(([ a-zA-Z,_]*)\\)",
+			"\\n\\t\\t\\t, ([a-zA-Z_]+): function\\(([ a-zA-Z,_]*)\\)",
+			"MapBoxProtocol\\.prototype\\.([a-zA-Z_]+) = function\\(\\)\\{\\n\\n\\}",
+			"obj",
+			"tag_matche",
+			"###([a-zA-Z_]+)",
+			"\\n\\t\\t, ([a-zA-Z_]+)",
+			"javo_map_box_func",
+			"javo_mhome_map_area"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"eddo",
+			"jQuery(",
+			"jQuery.",
+			"jQuery(",
+			"jQuery",
+			"javo-single-map-area",
+			".javo-single-map-area",
+			"",
+			"BaiduMapBoxProvider.prototype.$1 = function($2)\\n{\\n\\tconsole.warn('DEV-ABLED','$1')\\n\\treturn",
+			"BaiduMapBoxProvider.prototype.$1 = function($2)\\n{\\n\\tconsole.warn('DEV-ABLED',$1)\\n\\treturn",
+			"BaiduMapBoxProvider",
+			"jQuery$1",
+			"\\$$1",
+			"$$1",
+			"jQuery",
+			"obj.provider.",
+			"obj.provider.el.",
+			"obj.provider.el",
+			"\\nGoogleMapBoxProvider.prototype.$1 = function($2)",
+			"\\nGoogleMapBoxProvider.$1 = function($2)",
+			"MapBoxProtocol.prototype.$1 = function($2)\\n{\\n\\tif(this.provider && this.provider.$1)\\n\\t\\treturn this.provider.$1($2)\\n\\treturn \"WhizzleWhazzle\"\\n}",
+			"MapBoxProtocol.prototype.$1 = function(){\\n\\tif(this.provider && this.provider.$1)\\n\\t\\treturn this.provider.$1()\\n\\treturn \"WhizzleWazzle\"\\n}",
+			"MapBoxProtocol.prototype.$1 = function(){\\n\\tif(this.provider && this.provider.$1)\\n\\t\\treturn this.provider.$1\\n\\treturn \"WhizzleWazzle\"\\n}",
+			"MapBoxProtocol.prototype.$1 = function(){\\n\\tif(this.provider && this.provider.$1)\\n\\t\\treturn this.provider.$1\\n\\treturn\\n}",
+			"MapBoxProtocol.prototype.$1 = function(){\\n\\tif(this.provider && this.provider.$1)\\n\\t\\treturn this.provider.$1\\n\\treturn",
+			"MapBoxProtocol.prototype.$1 = function(){}",
+			"###$1",
+			"$1",
+			"pixGrid",
+			"pixgrid.get($1,$2)",
+			"pixgrid.get(($1),($2))",
+			"pixgrid.get($(1),$(2))",
+			"pixgrid.get($1,$2)",
+			"MAX_EXPLOSIONS_SEEN",
+			"analysis",
+			"kind",
+			"display",
+			"1px black; font-weight: bold;",
+			"0.4px",
+			"exports.$1 = $1\\n",
+			"export.$1 = $1\\n",
+			"export.$1",
+			"recentCNT",
+			"layout: post",
+			"range",
+			"mean",
+			"",
+			"\\n",
+			"\\n//",
+			"\\n\\t//TODO",
+			"//TODO\\n\\tcb\\(undefined,\"okay\"\\)",
+			"Command;",
+			"Command(",
+			"cmd",
+			"DataActionInfo",
+			"=\\nfunction ",
+			"=\\nfunction",
+			"\\n = function",
+			"\\nexports. = function ",
+			"\\n= exports. = function ",
+			"\\n= exports. =",
+			"\\nexports.",
+			"GF",
+			"\\nGameFuncs.",
+			"DA",
+			"*\\t",
+			"",
+			"estimatePriceOf",
+			"this"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/index.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								500,
+								500
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/js/client.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1008,
+								1008
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function startGame(options){",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 209.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "mygame.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
