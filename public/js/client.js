@@ -51,12 +51,39 @@ function launch(options){
 				loading		: new LoadingScreen(),
 				options		: new OptionsScreen()
 			}
-		//Wire up show/hide callbacks for all the screens
+		//Screens can share elements amongst states
+		var viewElements = 
+			{
+				pregameBubbleBox : new BubbleBox()
+			}
+
+		//Wire up default show/hide callbacks for all the screens
 		_.each(_.keys(screens),function(screenKey){
 			ui_fsm["onenter"+screenKey.toUpperCase()] = screens[screenKey].show.bind(screens[screenKey]);
 			ui_fsm["onleave"+screenKey.toUpperCase()] = screens[screenKey].hide.bind(screens[screenKey]);
 		});
-
+		ui_fsm["onenterLANDING"] = function(){
+			stage.addChild(viewElements.pregameBubbleBox.doc);
+			viewElements.pregameBubbleBox.show();
+			viewElements.pregameBubbleBox.enshroud(screens.landing,true);
+			screens.landing.show();
+		}
+		ui_fsm["onleaveLANDING"] = function(){
+			screens.landing.hide();
+			viewElements.pregameBubbleBox.release();
+		}
+		ui_fsm["onenterCONFIGURING"] = function(){
+			viewElements.pregameBubbleBox.enshroud(screens.configuring,true);
+			screens.configuring.show();
+		}
+		ui_fsm["onleaveCONFIGURING"] = function(){
+			screens.configuring.hide();
+			viewElements.pregameBubbleBox.release();
+		}
+		ui_fsm["onenterPLAYING"] = function(){
+			viewElements.pregameBubbleBox.hide();
+			stage.removeChild(viewElements.pregameBubbleBox.doc);
+		}
 
 	//Start Rendering Loop
 	document.getElementById(display).appendChild(renderer.view);
@@ -69,6 +96,66 @@ function launch(options){
 	//debug: Simulate transition states
 	ui_fsm.launch();
 	setTimeout(ui_fsm.initialized.bind(ui_fsm),500);
+}
+
+function BubbleBox(init)
+{
+	var me = this;
+	this.doc = new PIXI.DisplayObjectContainer();
+	this.bubbles = _.times(300,function(){
+		var bubble = new PIXI.Graphics()
+			.beginFill(0xFFFFFF)
+			.lineStyle(2, 0x999999, 0.2)
+			.drawCircle(0,0, Math.random() * 30);
+		bubble.yrate = 1.0 * Math.random();
+		bubble.xrate = 0.5 * Math.random();
+		bubble.phaseoffset = Math.random() * 2 * Math.PI;
+		bubble.alpha = 0.9
+		bubble.position = {
+			x : Math.random() * 800,
+			y : Math.random() * 600
+		}
+		me.doc.addChild(bubble);
+		return bubble;
+	});
+}
+BubbleBox.prototype.show = function()
+{
+	//Animate the bubbles
+	_.each(this.bubbles,function(bubble){
+		bubble.animref = setInterval(function(){
+			var upprogress = bubble.position.y / 600;
+			bubble.position.y -= bubble.yrate
+			bubble.position.x += Math.sin(upprogress * Math.PI + bubble.phaseoffset) * bubble.xrate;
+			bubble.scale.x = Math.sin(upprogress * 0.5 * Math.PI) * 1.2;
+			bubble.scale.y = Math.sin(upprogress * 0.5 * Math.PI) * 1.2;
+			if(bubble.position.y < -30)
+				bubble.position = { x: Math.random() * 800,  y: 630 }
+		},10);
+	});
+	stage.setBackgroundColor(0xFFEEEE);
+}
+BubbleBox.prototype.enshroud = function(screen, isAmidst)
+{
+	this.enshroudedScreen = screen;
+	this.doc.addChild(this.enshroudedScreen.doc);
+	if(isAmidst)
+	{
+		this.doc.swapChildren(this.enshroudedScreen.doc,this.bubbles[this.bubbles.length/2]);
+	}
+}
+BubbleBox.prototype.release = function()
+{
+	this.doc.removeChild(this.enshroudedScreen.doc);
+	this.enshroudedScreen = undefined;
+}
+BubbleBox.prototype.hide = function()
+{
+	stage.setBackgroundColor(0x002222);
+	//Stop animating the bubbles
+	_.each(this.bubbles,function(bubble){
+		clearInterval(bubble.animref);
+	})
 }
 
 function InitializingScreen(init)
@@ -120,22 +207,7 @@ function LandingScreen(init)
 
 	//GRAPHICS
 	this.doc = new PIXI.DisplayObjectContainer();
-	this.bubbles = _.times(300,function(){
-		var bubble = new PIXI.Graphics()
-			.beginFill(0xFFFFFF)
-			.lineStyle(2, 0x999999, 0.2)
-			.drawCircle(0,0, Math.random() * 30);
-		bubble.yrate = 1.0 * Math.random();
-		bubble.xrate = 0.5 * Math.random();
-		bubble.phaseoffset = Math.random() * 2 * Math.PI;
-		bubble.alpha = 0.9
-		bubble.position = {
-			x : Math.random() * 800,
-			y : Math.random() * 600
-		}
-		me.doc.addChild(bubble);
-		return bubble;
-	});
+
 	this.titletext = _.extend(new PIXI.Text("N E N Ð E",{font:'bold 90px Arial',fill:'#224444'}),{
 		position : { x: 400, y: 300 },
 		anchor : { x: 0.5, y: 0.5 },
@@ -149,9 +221,6 @@ function LandingScreen(init)
 	})
 	this.doc.addChild(this.subtitle);
 	this.doc.addChild(this.titletext);
-	//Put text amidst the bubbles
-	this.doc.swapChildren(this.titletext, this.bubbles[this.bubbles.length/2])
-	this.doc.swapChildren(this.subtitle, this.bubbles[this.bubbles.length/2-1])
 }
 LandingScreen.prototype.startNewGame = function()
 {
@@ -161,44 +230,39 @@ LandingScreen.prototype.startNewGame = function()
 LandingScreen.prototype.show = function(evt, from, to, payload){
 	console.log("SHOWING",ui_fsm.current,"STATE. (",payload,")")
 	var me = this;
-	//Animate the bubbles
-	_.each(this.bubbles,function(bubble){
-		bubble.animref = setInterval(function(){
-			var upprogress = bubble.position.y / 600;
-			bubble.position.y -= bubble.yrate
-			bubble.position.x += Math.sin(upprogress * Math.PI + bubble.phaseoffset) * bubble.xrate;
-			bubble.scale.x = Math.sin(upprogress * 0.5 * Math.PI) * 1.2;
-			bubble.scale.y = Math.sin(upprogress * 0.5 * Math.PI) * 1.2;
-			if(bubble.position.y < -30)
-				bubble.position = { x: Math.random() * 800,  y: 630 }
-		},10);
-	});
+
 	this.titletext.animref = setInterval(function(){
 		me.titletext.position.y = me.titletext.defposy + Math.sin(Date.now()/200) * 2 + Math.sin(Date.now()/1000) * 10
 	},10)
-	//Show self
-	stage.setBackgroundColor(0xFFEEEE);
-	stage.addChild(this.doc);
 }
 LandingScreen.prototype.hide = function(evt, from, to, payload){
 	console.log("HIDING",ui_fsm.current,"STATE. (",payload,")")
 	//Pause the bubbles
 	clearInterval(this.titletext.animref)
-	_.each(this.bubbles,function(bubble){
-		clearInterval(bubble.animref);
-	})
-	//Remove self
-	stage.removeChild(this.doc);
 }
 
 function ConfigurationScreen(init)
 {
+	var me = this;
+
+	//GRAPHICS
+	this.doc = new PIXI.DisplayObjectContainer();
+
+	this.titletext = _.extend(new PIXI.Text("Configuration Stuff",{font:'bold 90px Arial',fill:'#224444'}),{
+		position : { x: 400, y: 300 },
+		anchor : { x: 0.5, y: 0.5 },
+		defposy : 320
+	});
+	this.titletext.interactive = true;
+	this.titletext.mouseup = this.titletext.tap = this.beginGame.bind(this);
+	this.doc.addChild(this.titletext);
+}
+ConfigurationScreen.prototype.beginGame = function(){
+	ui_fsm.play();
 }
 ConfigurationScreen.prototype.show = function(evt, from, to, payload)
 {
 	console.log("SHOWING",ui_fsm.current,"STATE. (",payload,")")
-	//todo - no config screen for the moment
-	ui_fsm.play({gameState:"foo"});
 }
 ConfigurationScreen.prototype.hide = function(evt, from, to, payload)
 {
